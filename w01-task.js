@@ -20,4 +20,6 @@ function total(...theNumbers) {
     sum += aNumber * 1; // Why do we use * 1? It implicitly converts a string to a number.
   }
   return sum;
+
+  
 }
