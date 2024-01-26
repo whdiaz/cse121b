@@ -25,6 +25,7 @@ const imageElement = document.getElementById('image')
 /* Step 4 - Adding Content */
 yearElement.textContent = currentYear;
 imageElement.setAttribute('src', myPhoto)
+imageElement.setAttribute('alt', `Profile image of ${myName}`);
 
 
 
